@@ -31,7 +31,7 @@ module SitemapGenerator
     # the sitemaps may be overwritten.
     def create(opts={}, &block)
       reset!
-      set_options(opts)
+      set_options_five(opts)
       start_time = Time.now if @verbose
       interpreter.eval(:yield_sitemap => @yield_sitemap || SitemapGenerator.yield_sitemap?, &block)
       finalize!
@@ -274,7 +274,7 @@ module SitemapGenerator
     #
     # If both `filename` and `sitemaps_namer` are passed, set filename first so it
     # doesn't override the latter.
-    def set_options(opts={})
+    def set_options_five(opts={})
       %w(filename sitemaps_namer).each do |key|
         if value = opts.delete(key.to_sym)
           send("#{key}=", value)

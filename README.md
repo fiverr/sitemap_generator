@@ -694,3 +694,17 @@ Copyright (c) 2009 Karl Varga released under the MIT license
 [geo_tags]:http://www.google.com/support/webmasters/bin/answer.py?hl=en&answer=94555
 [news_tags]:http://www.google.com/support/news_pub/bin/answer.py?answer=74288
 [remote_hosts]:https://github.com/kjvarga/sitemap_generator/wiki/Generate-Sitemaps-on-read-only-filesystems-like-Heroku
+=======
+Foreword
+-------
+
+Unfortunately, Adam Salter passed away in 2009.  Those who knew him know what an amazing guy he was, and what an excellent Rails programmer he was.  His passing is a great loss to the Rails community.
+
+<b>[Karl Varga](http://github.com/kjvarga) has taken over development of SitemapGenerator.</b>
+
+<b>The canonical repository is [http://github.com/kjvarga/sitemap_generator][canonical_repo].</b>
+
+<b>Issues should be logged at [http://github.com/kjvarga/sitemap_generator/issues][issues_url].</b>
+
+[canonical_repo]:http://github.com/kjvarga/sitemap_generator
+[issues_url]:http://github.com/kjvarga/sitemap_generator/issues
